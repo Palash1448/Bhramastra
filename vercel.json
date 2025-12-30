@@ -9,18 +9,10 @@
       }
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
-    },
-    {
-      "src": "/(.*\\.(js|css|jpg|jpeg|png|gif|ico|svg|woff|woff2|ttf|eot))",
-      "dest": "/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/((?!assets|favicon.ico|robots.txt|sitemap.xml|sw.js|.*\\.(js|css|jpg|jpeg|png|gif|ico|svg|woff|woff2|ttf|eot)).*)",
+      "destination": "/index.html"
     }
   ],
   "headers": [
