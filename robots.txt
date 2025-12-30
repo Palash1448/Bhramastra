@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://your-domain.com/sitemap.xml
+
+# Disallow sensitive files
+Disallow: /assets/*.js.map
+Disallow: /assets/*.css.map
+Disallow: /.htaccess
+Disallow: /package.json
+Disallow: /serve.json
+Disallow: /vercel.json
+
+# Allow important pages
+Allow: /
+Allow: /videos
+Allow: /posts
+Allow: /courses
+Allow: /books
+Allow: /quotes
+Allow: /about
+Allow: /contact

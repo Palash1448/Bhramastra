@@ -1,0 +1,20 @@
+{
+  "name": "bhramastra-main",
+  "version": "1.0.0",
+  "description": "Bhramastra - Inspire Your Journey with Motivational Videos and Content",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -s . -l 3000",
+    "serve": "serve -s . -l 3000",
+    "preview": "serve -s . -l 4173"
+  },
+  "keywords": ["motivational", "videos", "inspiration", "bhramastra", "vimeo"],
+  "author": "JYOTI MARUTI MALI",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.5"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
